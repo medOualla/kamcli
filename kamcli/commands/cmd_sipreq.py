@@ -35,7 +35,7 @@ from kamcli.iorpc import command_ctl
     help='Socket for sending (default: "")',
 )
 @click.option(
-    "body", "--body", "-b", default="", help='Destination URI (default: "")'
+    "body", "--body", "-b", default="", help='Message body or payload (default: "")'
 )
 @click.argument("uri", nargs=1, metavar="[<uri>]")
 @pass_context
